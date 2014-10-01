@@ -1,11 +1,10 @@
-#navigation
-{
+#navigation {
   background-color: #ff9404;
 }
 
-h1, p.welcome
-{
+h1, p.welcome {
  color: #ff9404;
+}
 }
 
 p.welcome {
@@ -14,4 +13,34 @@ p.welcome {
 
 .text-shadow {
     text-shadow: 0 0 3px black;
+}
+
+.page-contact {
+    background: url(../images/pages/contact/map_bck.jpg) 50% 0 no-repeat fixed;
+}
+
+[class^="sicon-"] i, [class*=" sicon-"] i {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.custom-center {
+	margin: 0 auto;
+}
+
+.social-icons a {
+	display: inline-block;
+}
+
+a.dark {
+	color: white;
+}
+
+.media>.pull-left {
+	margin-right: 5px;
+}
+
+.row-fluid .offset1-5 {
+  margin-left: 14.384615385%;
+  *margin-left: 14.384615385%;
 }
