@@ -5,7 +5,6 @@
 h1, p.welcome {
  color: #ff9404;
 }
-}
 
 p.welcome {
     font-size: 1.25em;
@@ -43,4 +42,27 @@ a.dark {
 .row-fluid .offset1-5 {
   margin-left: 14.384615385%;
   *margin-left: 14.384615385%;
+}
+
+.modal-dark {
+	color: black;
+	line-height: 1em;
+	font-size: 1em;
+	padding-top: 0px;
+}
+
+.modal-dark h5 {
+	margin-bottom: 0;
+}
+
+.modal-dark p {
+	margin-bottom: 30px;
+}
+
+.portfolio-items .portfolio-overlay {
+	left: 0;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
 }
