@@ -1,5 +1,6 @@
 #navigation {
   background-color: #ff9404;
+  z-index: 1000;
 }
 
 h1, p.welcome {
@@ -73,4 +74,8 @@ a.dark {
 
 .padding-top {
 	padding-top: 30px;
+}
+
+#navigation .brand {
+	padding-right: 20px;
 }
