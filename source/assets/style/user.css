@@ -15,7 +15,11 @@ p.welcome {
 }
 
 .page-contact {
-    background: url(../images/pages/contact/map_bck.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/pages/contact/map_bck.jpg) 90% 0 no-repeat fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 [class^="sicon-"] i, [class*=" sicon-"] i {
@@ -65,4 +69,8 @@ a.dark {
 	-moz-transition: all .3s linear;
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
+}
+
+.padding-top {
+	padding-top: 30px;
 }
