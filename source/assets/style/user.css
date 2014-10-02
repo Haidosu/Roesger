@@ -3,6 +3,10 @@
   z-index: 1000;
 }
 
+#navigation #main-menu a {
+	padding: 12px 10px;
+}
+
 h1, p.welcome {
  color: #ff9404;
 }
@@ -16,7 +20,7 @@ p.welcome {
 }
 
 .page-contact {
-    background: url(../images/pages/contact/map_bck.jpg) 90% 0 no-repeat fixed;
+    background: url(../images/pages/contact/map_bck.jpg) 50% 0 no-repeat fixed;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
